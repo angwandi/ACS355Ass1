@@ -1,0 +1,16 @@
+.grid_system div[class^="col"] {
+    border: 1px solid white;
+    background: #e4dcdc;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.grid_system .container .row .navbar{
+    background: url("../images/image02.jpg");
+}
+footer {
+    background-color: black;
+    color: #09a7a1;
+    padding: 0.5em;
+}

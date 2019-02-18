@@ -1,0 +1,31 @@
+.contact .contact-content {
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.contact .contact-content h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: red;
+}
+
+.contact .contact-content .address-holder {
+    font-family: 'Roboto Slab', sans-serif;
+}
+/*----------------------General Pages All--------------------------------------------*/
+.grid_system div[class^="col"] {
+    border: 1px solid white;
+    background: #e4dcdc;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.grid_system .row .col-sm-12 {
+    background: url("../images/image02.jpg");
+}
+
+footer {
+    background-color: black;
+    color: #09a7a1;
+    padding: 0.5em;
+}

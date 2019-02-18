@@ -1,0 +1,39 @@
+
+.about .about-content {
+    padding: 15px;
+    margin: 15px;
+    width: auto;
+    background: cadetblue;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.about .about-content p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: green;
+}
+
+.about .about-content h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: red;
+}
+
+/*----------------------General Pages All--------------------------------------------*/
+.grid_system div[class^="col"] {
+    border: 1px solid white;
+    background: #e4dcdc;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.grid_system .row .col-sm-12 {
+    background: url("../images/image02.jpg");
+}
+
+footer {
+    background-color: black;
+    color: #09a7a1;
+    padding: 0.5em;
+}
