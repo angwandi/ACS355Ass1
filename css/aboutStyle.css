@@ -13,6 +13,12 @@
     color: green;
 }
 
+.about .about-content p:first-letter {
+    font-size: 75px;
+    float:left;
+    vertical-align: auto;
+}
+
 .about .about-content h1 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
