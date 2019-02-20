@@ -1,16 +1,76 @@
 .grid_system div[class^="col"] {
     border: 1px solid white;
     background: #e4dcdc;
-    text-align: center;
+    text-align: justify-all;
     padding-top: 5px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
 }
 
-.grid_system .container .row .navbar{
+.grid_system .container .row .navbar {
     background: url("../images/image02.jpg");
 }
-footer {
-    background-color: black;
-    color: #09a7a1;
-    padding: 0.5em;
+
+#logo {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
 }
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.page-footer {
+    width: 100%;
+    color: #09a7a1;
+    background-color: black;
+}
+
+html, body, head {
+    height: 100%
+}
+
+.home {
+    text-align: justify;
+    font-family: 'Roboto Slab', monospace;
+}
+
+.col-sm-3 {
+}
+
+.col-sm-3 a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.col-sm-3 a:hover {
+    background-color: #ccc;
+}
+
+.col-sm-3 a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*.container-fluid .col-sm-9 {*/
+    /*padding-bottom: 200px;*/
+    /*background: url("../images/ip2.jpg");*/
+/*}*/

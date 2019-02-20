@@ -1,22 +1,16 @@
 
 .about .about-content {
-    padding: 15px;
     margin: 15px;
     width: auto;
     background: cadetblue;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding-bottom: 200px;
 }
 
 .about .about-content p {
     text-align: justify;
     font-family: 'Lato', sans-serif;
     color: green;
-}
-
-.about .about-content p:first-letter {
-    font-size: 75px;
-    float:left;
-    vertical-align: auto;
 }
 
 .about .about-content h1 {
@@ -29,7 +23,7 @@
 .grid_system div[class^="col"] {
     border: 1px solid white;
     background: #e4dcdc;
-    text-align: center;
+    text-align: justify-all;
     padding-top: 5px;
     padding-bottom: 5px
 }
@@ -38,8 +32,14 @@
     background: url("../images/image02.jpg");
 }
 
-footer {
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     color: #09a7a1;
-    padding: 0.5em;
+}
+
+html, body, head {
+    height: 100%
 }
