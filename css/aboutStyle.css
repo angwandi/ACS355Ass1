@@ -1,10 +1,10 @@
 
 .about .about-content {
+    padding: 15px;
     margin: 15px;
     width: auto;
     background: cadetblue;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    padding-bottom: 200px;
 }
 
 .about .about-content p {
@@ -42,4 +42,21 @@
 
 html, body, head {
     height: 100%
+}
+
+.col-sm-3 a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.col-sm-3 a:hover {
+    background-color: #ccc;
+}
+
+.col-sm-3 a.active {
+    background-color: #4CAF50;
+    color: white;
 }

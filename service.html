@@ -28,61 +28,120 @@
         </div>
         <div class="row">
             <div class="col-sm-3">
-                <nav class="navbar navbar-expand-sm bg-light justify-content">
-                    <ul class="nav flex-column">
+                <nav class="navbar navbar-expand-sm  justify-content">
+                    <ul class="nav flex-column" style="font-size: x-large">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About the course</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contents</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9" style="padding-bottom: 200px">
                 <!--TODO main content goes here-->
                 <div class="services-content">
 
-                    <h1>Services</h1>
+                    <h1>Content of the course</h1>
 
                     <div class="card-container">
                         <ul>
                             <li>
                                 <img src="https://via.placeholder.com/200x130">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia,
-                                    there
-                                    live the blind texts. Separated they live in Bookmarksgrove right at the coast of
-                                    the
-                                    Semantics,
-                                    a large language ocean. A small river named Duden flows by their place and supplies
-                                    it
-                                    with the
-                                    necessary</p>
+                                <h5>Programming network applications</h5>
+                                <h6>Why network applications?</h6>
+
+                                <p>Alongside the technical ”evolution”, communication between application
+                                    and
+                                    also between parts of applications residing on different computer become
+                                    more and more common
+                                </p>
+                                <p>Examples of asynchronously communicating applications:
+                                    web browsers, e-mail, news.
+                                </p>
+
+                                <h6>Need for applications where the participants are aware of each others:</h6>
+                                <p>Shared bulletin boards, whiteboards, shared word processors, control
+                                    systems (eg. robots) and (not the least) games (like runescape and world
+                                    of
+                                    warcraft).
+                                </p>
+                                <p>There is support in the networks, where we will look closer on the
+                                    internet.
+
+                                </p>
+                        </ul>
+                        <ul>
+                            <li>
+                                <img src="https://via.placeholder.com/200x130">
+                                <h5>Networks</h5>
+                                <p>A network is in this respect a collection of interconnected computers and/or
+                                    other kinds of equipment
+                                    Terminology:</p>
+                                <p>node, a machine that is connected to the network (computer, printer, bridge,
+                                    vending machine, . . . )
+                                </p>
+                                <p>host, a fully autonomous computer connected to the network</p>
+                                <p>address, each node has a unique address (a number of bytes)</p>
+                                <p>packet, modern networks are packet based, meaning that the information is
+                                    broken down to and sent as small chunks, each chunk of information handled
+                                    separately
+                                </p>
+                                <p>protocol, rules, specifying how to perform communication</p>
+
                             </li>
                             <li>
                                 <img src="https://via.placeholder.com/200x130">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia,
-                                    there
-                                    live the blind texts. Separated they live in Bookmarksgrove right at the coast of
-                                    the
-                                    Semantics,
-                                    a large language ocean. A small river named Duden flows by their place and supplies
-                                    it
-                                    with the
-                                    necessary</p>
+                                <h5>Internet</h5>
+                                <h6>Internet is the most know and most wide spread network.</h6>
+                                <p>Designed to be robust (errors are unusual)</p>
+                                <p>First version 1969, ARPANET, designed by ARPA, a DoD unit.</p>
+                                <p>1983 there were 562 computers on the ARPANET</p>
+                                <p>1986 there were 5000 computers</p>
+                                <p>1987 – 28000,</p>
+                                <p>1989 – 100000,</p>
+                                <p>1990 – 300000,</p>
+                                <p>2009 – 1.67 billion (a rough estimate on June 30)</p>
                             </li>
                             <li>
                                 <img src="https://via.placeholder.com/200x130">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and
-                                    Consonantia,
-                                    there
-                                    live the blind texts. Separated they live in Bookmarksgrove right at the coast of
-                                    the
-                                    Semantics,
-                                    a large language ocean. A small river named Duden flows by their place and supplies
-                                    it
-                                    with the
-                                    necessary</p>
+                                <h5>Layers</h5>
+                                <h6>A network is built as a set of layers</h6>
+
+                                <table class="table table-dark">
+                                    <thead>
+                                    <tr>
+                                        <th>Layers</th>
+                                        <th>Protocols</th>
+                                        <th>Ranking</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Application</td>
+                                        <td>(HTTP, FTP, Telnet)</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transport</td>
+                                        <td>(TCP, UDP, ...)</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Network</td>
+                                        <td>(IP, ...)</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Physical</td>
+                                        <td>(Ethernet, FDDI, LocalTalk, drivers, ...)</td>
+                                        <td>4</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Application programmers work mainly in the upper layer</p>
+                                <p>Eventually in the transport layer (in distributed applications)</p>
+                                <p>Other layers are normally of no concern</p>
                             </li>
                         </ul>
                     </div>
@@ -91,8 +150,6 @@
         </div>
     </div>
 </div>
-<footer>&copy; ACS 355 Daystar</footer>
-
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -104,7 +161,28 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+<footer class="page-footer font-small stylish-color-dark pt-4 fixed-bottom">
 
+    <!-- Footer Elements -->
+    <div class="container">
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1">Register for ACS 355</h5>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn btn-danger btn-rounded"
+                   href="http://portal.daystar.ac.ke/secure/student/loginstu.aspx"> Student Portal</a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- Footer Elements -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">&copy; ACS 355 Daystar Copyright
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </body>
 
 </html>
