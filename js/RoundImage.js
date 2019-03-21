@@ -11,5 +11,5 @@ function toggleClass() {
 }
 
 function evalString() {
-    eval("2 + 5")
+    document.writeln(eval("2+5"))
 }
